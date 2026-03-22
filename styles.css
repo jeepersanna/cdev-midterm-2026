@@ -4,6 +4,7 @@ body{
   font-family:'Archivo',sans-serif;font-weight:300;
   overflow-x:hidden;
   cursor:crosshair;
+  background:#000;
 }
 
 /* ── PUNK TEXTURE OVERLAY ── */
@@ -282,7 +283,7 @@ section{min-height:100vh;display:flex;flex-direction:column;justify-content:cent
 }
 /* each section gets a gradient mask that bleeds the photo into its bg color */
 #s1 .sec-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,#0d0622 15%,rgba(13,6,34,0.72) 45%,rgba(13,6,34,0.4) 70%,rgba(13,6,34,0.55) 100%),linear-gradient(to bottom,#0d0622 0%,transparent 18%,transparent 80%,#0d0622 100%);}
-#s2 .sec-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,#1a0028 15%,rgba(26,0,40,0.72) 45%,rgba(26,0,40,0.4) 70%,rgba(26,0,40,0.55) 100%),linear-gradient(to bottom,#1a0028 0%,transparent 18%,transparent 80%,#1a0028 100%);}
+#s2 .sec-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,#1a0028 15%,rgba(26,0,40,0.72) 45%,rgba(26,0,40,0.4) 70%,rgba(26,0,40,0.55) 100%),linear-gradient(to bottom,#1a0028 0%,transparent 18%,transparent 80%,#0d0622 100%);}
 #s3 .sec-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,#060820 15%,rgba(6,8,32,0.72) 45%,rgba(6,8,32,0.4) 70%,rgba(6,8,32,0.55) 100%),linear-gradient(to bottom,#060820 0%,transparent 18%,transparent 80%,#060820 100%);}
 #s4 .sec-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,#280038 15%,rgba(40,0,56,0.72) 45%,rgba(40,0,56,0.4) 70%,rgba(40,0,56,0.55) 100%),linear-gradient(to bottom,#280038 0%,transparent 18%,transparent 80%,#280038 100%);}
 #s5 .sec-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,#4a0840 15%,rgba(74,8,64,0.72) 45%,rgba(74,8,64,0.4) 70%,rgba(74,8,64,0.55) 100%),linear-gradient(to bottom,#4a0840 0%,transparent 18%,transparent 80%,#4a0840 100%);}
