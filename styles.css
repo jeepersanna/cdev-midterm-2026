@@ -712,3 +712,62 @@ section{will-change:auto;}
 body{font-family:'Archivo',Arial,sans-serif;}
 .pull-q,.sb-title,.big-close,.stat-num,.ch-num,.hero-title,.sb-title{font-family:'Bebas Neue',Impact,sans-serif;}
 .ch-label,.sb-label,.sb-meta,.sb-block-label,.bt,.iq cite,.img-cap,.album-artist,.album-year,.hero-eyebrow,.hero-hint,.byline,.tag{font-family:'DM Mono','Courier New',monospace;}
+
+/* ── COLLAPSIBLE LYRICS ── */
+.sb-block--lyrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sb-block--lyrics .sb-block-label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  user-select: none;
+  padding: 12px 28px;
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  border: 1px solid currentColor;
+  opacity: 0.75;
+  transition: opacity 0.2s, background 0.2s;
+  margin-bottom: 28px;
+}
+.sb-block--lyrics .sb-block-label:hover {
+  opacity: 1;
+  background: rgba(255,255,255,0.07);
+}
+.sb-block--lyrics .sb-block-label::after {
+  content: '[ − ]';
+  font-style: normal;
+  letter-spacing: 0.04em;
+  transition: opacity 0.2s;
+  opacity: 0.7;
+}
+.sb-block--lyrics.is-collapsed .sb-block-label::after {
+  content: '[ + ]';
+}
+.sb-block--lyrics .sb-lyrics {
+  overflow: hidden;
+  max-height: 2000px;
+  transition: max-height 0.5s ease, opacity 0.35s ease;
+  opacity: 1;
+}
+.sb-block--lyrics.is-collapsed .sb-lyrics {
+  max-height: 0;
+  opacity: 0;
+}
+
+/* ── S6 TEXT BACKGROUND BOX ── */
+#s6 .ch-text {
+  padding: 40px 44px;
+  position: relative;
+}
+#s6 .ch-text::before {
+  content: '';
+  position: absolute;
+  inset: -24px;
+  background: linear-gradient(to left, rgba(240,120,160,0.50) 0%, rgba(240,120,160,0.10) 100%);
+  filter: blur(34px);
+  z-index: -1;
+}

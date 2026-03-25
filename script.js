@@ -306,3 +306,11 @@ function startViz(){
   draw();
 }
 
+
+// ── Collapsible lyrics ──
+document.querySelectorAll('.sb-block--lyrics').forEach(block => {
+  block.classList.add('is-collapsed');
+  block.querySelector('.sb-block-label').addEventListener('click', () => {
+    block.classList.toggle('is-collapsed');
+  });
+});
