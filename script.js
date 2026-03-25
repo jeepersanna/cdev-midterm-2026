@@ -269,7 +269,8 @@ window.addEventListener('scroll',()=>{
 function reveal(){} // animations disabled
 // setTimeout(reveal,80) — disabled
 
-let vf,vphase=0;
+let vf,vphase=0,vizPaused=false;
+document.addEventListener('visibilitychange',()=>{vizPaused=document.hidden;});
 function toggleReelSpin(on){document.getElementById('reel-left')?.classList.toggle('spin',on);document.getElementById('reel-right')?.classList.toggle('spin',on);}
 function startViz(){
   const canvas=document.getElementById('tape-canvas');const ctx=canvas.getContext('2d');
@@ -279,7 +280,9 @@ function startViz(){
   const dataArr=analyser?new Uint8Array(bufLen):null;
   const history=[];
   function draw(){
-    vf=requestAnimationFrame(draw);const w=canvas.width,h=canvas.height;
+    vf=requestAnimationFrame(draw);
+    if(vizPaused)return;
+    const w=canvas.width,h=canvas.height;
     ctx.clearRect(0,0,w,h);ctx.fillStyle='#050008';ctx.fillRect(0,0,w,h);
     let s;
     if(analyser&&dataArr){
@@ -292,12 +295,12 @@ function startViz(){
       s=Math.sin(t*3.1+vphase*8)*Math.sin(t*1.7+vphase*3)*0.45+Math.sin(t*5.3)*0.28;
     }
     history.push(s);if(history.length>w)history.shift();const mid=h/2;
-    ctx.beginPath();for(let x=0;x<history.length;x++){const a=history[x]*mid*0.82;x===0?ctx.moveTo(x,mid-a):ctx.lineTo(x,mid-a);}
-    ctx.strokeStyle='#e8008a28';ctx.lineWidth=9;ctx.shadowColor='#e8008a';ctx.shadowBlur=14;ctx.stroke();
-    ctx.beginPath();for(let x=0;x<history.length;x++){const a=history[x]*mid*0.82;x===0?ctx.moveTo(x,mid-a):ctx.lineTo(x,mid-a);}
-    ctx.strokeStyle='#4060e822';ctx.lineWidth=9;ctx.shadowColor='#4060e8';ctx.shadowBlur=10;ctx.stroke();
-    ctx.beginPath();for(let x=0;x<history.length;x++){const a=history[x]*mid*0.82;x===0?ctx.moveTo(x,mid-a):ctx.lineTo(x,mid-a);}
-    ctx.strokeStyle=vcol+'e0';ctx.lineWidth=1.5;ctx.shadowColor=vcol;ctx.shadowBlur=6;ctx.stroke();
+    // Build path once, stroke three times (glow wide → glow narrow → sharp line)
+    ctx.beginPath();
+    for(let x=0;x<history.length;x++){const a=history[x]*mid*0.82;x===0?ctx.moveTo(x,mid-a):ctx.lineTo(x,mid-a);}
+    ctx.lineWidth=9;ctx.strokeStyle='#e8008a28';ctx.shadowColor='#e8008a';ctx.shadowBlur=14;ctx.stroke();
+    ctx.strokeStyle='#4060e822';ctx.shadowColor='#4060e8';ctx.shadowBlur=10;ctx.stroke();
+    ctx.lineWidth=1.5;ctx.strokeStyle=vcol+'e0';ctx.shadowColor=vcol;ctx.shadowBlur=6;ctx.stroke();
     ctx.shadowBlur=0;vphase+=0.012;
   }
   draw();
