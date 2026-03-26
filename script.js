@@ -122,10 +122,10 @@ const SECTION_TRACKS = [
     url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69b39632fb12baa7df1eab45_I%20Can%27t%20Get%20Over%20It.mp3', synthIdx:0 },
   // s2 — alone
   { title:'keep on rockin\' in the free world', artist:'neil young', year:'1989',
-    url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc19a5a98135bf957ad91_01%20My%20My%2C%20Hey%20Hey%20(Out%20of%20the%20Blue)%201.mp3', synthIdx:0 },
+    url:'https://jeepersanna.github.io/cdev-midterm-2026/music/rockinginthefree.mp3', synthIdx:0 },
   // s3 — a world with no windows
   { title:'jesus freak', artist:'dc talk', year:'1995',
-    url:'music/jesusfreak.mp3', synthIdx:1 },
+    url:'https://jeepersanna.github.io/cdev-midterm-2026/music/jesusfreak.mp3', synthIdx:1 },
   // s4 — what i longed for
   { title:'zombie', artist:'the cranberries', year:'1994',
     url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc1a272c49003a3792a26_03%20Zombie%201.mp3', synthIdx:2 },
