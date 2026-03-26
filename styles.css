@@ -462,8 +462,10 @@ section{min-height:100vh;display:flex;flex-direction:column;justify-content:cent
 #s6 .stat-num{color:#400010;}
 #s6 .theory-pill{border-color:rgba(96,0,32,0.45);color:#400010;}
 
-#s7{background:#1a0030;color:#e8d8ff;min-height:100vh;display:flex;align-items:stretch;}
-#s7 .chapter-outro{padding:100px max(56px,9vw) 100px max(80px,9vw);max-width:780px;position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center;min-height:100vh;}
+#s7{background:#1a0030;color:#e8d8ff;min-height:100vh;display:flex;flex-direction:column;align-items:center;}
+#s7 .s7-inner{display:flex;flex-direction:row;max-width:1240px;width:100%;align-items:stretch;position:relative;z-index:2;}
+#s7 .chapter-outro{padding:100px max(56px,7vw) 100px max(80px,9vw);position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center;min-height:100vh;flex:1;}
+#s7 .s7-imgs{padding:100px 56px 100px 0;position:sticky;top:100px;align-self:start;z-index:2;width:min(480px,46%);flex-shrink:0;}
 .big-close{
   font-family:'Bebas Neue',sans-serif;
   font-size:clamp(2rem,4vw,3.6rem);
@@ -652,7 +654,7 @@ section{min-height:100vh;display:flex;flex-direction:column;justify-content:cent
 }
 .sb-lyrics{
   font-family:'DM Mono',monospace;font-size:0.88rem;line-height:2.3;
-  color:rgba(255,255,255,0.72);white-space:pre-line;font-style:italic;
+  color:rgba(255,255,255,0.72);white-space:pre-line;font-style:italic;font-weight:300;
   letter-spacing:0.04em;
   border-left:2px solid rgba(232,0,138,0.35);padding-left:22px;
   column-count:3;column-gap:40px;
