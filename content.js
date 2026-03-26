@@ -86,7 +86,7 @@ const CONTENT = {
   's6-quote': 'We know that the best and most organic learning builds on what students already know. We need to see students — and have them see themselves — as capable learners who can learn and do anything.',
   's6-cite':  '— Turk, 2023',
   's6-p2': 'Turk\'s (2023) framing is useful perspective for me: that we need to see students — and have them see themselves — as capable learners. I spent years not seeing myself that way. Not because I lacked ability, but because no one had ever framed my learning as something I was building. It was something being done to me, or for me, or through me — but rarely with me.',
-  's6-p3': 'That is the thing I most want to change. Not to offer a corrected version of my own education, but something genuinely different — a classroom where a student\'s confusion is the starting point, not a problem to be managed. I\'ve spent enough time on the outside of that kind of learning to know exactly what it looks like from in here.',
+  's6-p3': 'What I want to build is something genuinely different from what I was given — a classroom where a student\'s questions or confusions are the starting point, not problems to be managed. Where learning is done with students, not to them or for them. I spent long enough on the outside of that to know exactly what it costs. What I want to make is a space where not-knowing feels safe, where students see themselves as active participants in their learning — and feel ownership in the classroom and over their education.',
   's6-cap':  'running free — what every child deserves',
   's6-cap2': 'anna &amp; kevin at an outdoor concert',
   's6-cap3': 'anna &amp; rae at twin peaks',
