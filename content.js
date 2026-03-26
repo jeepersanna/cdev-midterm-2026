@@ -76,8 +76,8 @@ const CONTENT = {
   's5-p3': 'The loneliness I felt as a student has become something I carry into every classroom I enter. I know what it feels like to be on the outside of a conversation everyone else seems fluent in. To carry an education that prepared you for one world and dropped you into another. To feel like the rules of learning were written for someone else. That knowledge doesn\'t make me a better teacher by itself — but it makes me a more clear-eyed one. The kind who knows that good intentions inside a broken framework are still a broken framework. The kind who will look for what the framework is doing to the child, not just what the teacher is trying to do for them.',
   's5-cap1': 'sitting alone in a crowd',
 
-  // ── SONG BREAK 5: YOU WON'T KNOW ────────────────────────
-  'br5-why': 'The whole record this comes from is called The Devil and God Are Raging Inside Me — which is as accurate a description of unguided theological education as I\'ve ever heard. The song itself is the experience of needing someone to hold the thread and screaming into the space where they should have been. Zaretta Hammond calls it relationship. I called it absence. We\'re talking about the same void.<br><br><div style="text-align:center"><em>"I will not lie, I thought I had it figured out"<br><b>"You Won\'t Know" — Brand New</b></em></div>',
+  // ── SONG BREAK 5: SEVENTY TIMES 7 ────────────────────────
+  'br5-why': 'I chose this song because it gave sound to an anger I couldn\'t name. The song is about the betrayal of a best friend — specific, personal, pointed. Mine wasn\'t. I just knew something had failed me, something I had trusted completely, something I hadn\'t chosen. The target was blurry. The pain wasn\'t.<br><br><div style="text-align:center"><em>Back in school they never taught us what we needed to know<br>Like how to deal with despair, or someone breaking your heart<br>For twelve years I\'ve held it all together<br>But a night like this is begging to pull me apart<br><b>"Seventy Times 7" — Brand New</b></em></div>',
 
   // ── SECTION 6: AND WHAT REMAINS ─────────────────────────
   's6-label': '06 — AND WHAT REMAINS',
@@ -93,7 +93,7 @@ const CONTENT = {
   's6-cap4': 'anna &amp; rae at the marin headlands',
 
   // ── SONG BREAK 6: ANTHEMS FOR A SEVENTEEN YEAR OLD GIRL ─
-  'br6-why': 'The song repeats her identity like a label until it feels like a cage. That\'s what deficit thinking does — it reduces a student to what she lacks, what she represents, what category she fits. Ethnic Studies and Culturally Responsive Teaching exist to break that loop. I heard this song and thought: yes, that. That\'s what it feels like before someone finally sees you whole.<br><br><div style="text-align:center"><em>"Park that car, drop that phone<br>Sleep on the floor, dream about me"<br><b>"Anthems for a Seventeen Year Old Girl" — Broken Social Scene</b></em></div>',
+  'br6-why': 'My best friend and I played this song when we left home at eighteen. We knew what we were — the ones who asked too many questions, wanted too much, didn\'t fit the mold. In our community, that made us the rotten ones. We spoiled the bunch.<br><br>It took years to understand that the not-fitting was never the problem. The mold was.<br><br><div style="text-align:center"><em>Used to be one of the rotten ones and I liked you for that.<br><b>"Anthems For a Seventeen Year-Old Girl" — Broken Social Scene</b></em></div>',
 
   // ── SECTION 7: FIN ──────────────────────────────────────
   's7-big-close':     'EDUCATION MUST CENTER POSSIBILITY, COMMUNITY, AND COLLECTIVE RESPONSIBILITY.',
@@ -102,7 +102,7 @@ const CONTENT = {
   's7-byline':    'ANNA DANIELSON · CDEV 150 · PROF. REBEKAH AUSTIN · MARCH 2, 2026',
 
   // ── SONG BREAK 7: CAME OUT SWINGING ─────────────────────
-  'br7-why': 'I didn\'t choose this song because everything turned out fine. I chose it because it\'s about deciding not to be defined by where you came from — and meaning it. An asset-based perspective isn\'t optimism for its own sake. It\'s a refusal. Every child who walked into a classroom carrying more than the curriculum could see deserved a teacher who knew how to look. I want to be that teacher. That\'s what came out swinging means to me.<br><br><div style="text-align:center"><em>"I\'m not sad anymore<br>I\'m just tired of this place"<br><b>"Came Out Swinging" — The Wonder Years</b></em></div>',
+  'br7-why': 'This is the end of the mixtape. Which means it\'s also the end of the analysis — the part where I stop pulling the framework apart and say what I actually think.<br><br>I didn\'t get the education I deserved. I\'m still working out what that cost me. But I also made it here — to this page, to these questions, to a version of myself that knows the difference between being taught and actually learning. That didn\'t happen in spite of everything. It happened through it.<br><br><div style="text-align:center"><em>I came out swinging from a South Philly basement,<br>Caked in stale beer and sweat, under half-lit fluorescents<br>And I spent the winter writing songs about getting better<br>And if I\'m being honest, I\'m getting there<br><b>"Came Out Swinging" — The Wonder Years</b></em></div>',
 
 };
 

@@ -130,8 +130,8 @@ const SECTION_TRACKS = [
   { title:'zombie', artist:'the cranberries', year:'1994',
     url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc1a272c49003a3792a26_03%20Zombie%201.mp3', synthIdx:2 },
   // s5 — theories that name the gap
-  { title:"you won't know", artist:'brand new', year:'2006',
-    url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc2de977dc54066432c25_06%20You%20Wont%20Know.mp3', synthIdx:3 },
+  { title:'seventy times seven', artist:'brand new', year:'2001',
+    url:'https://jeepersanna.github.io/cdev-midterm-2026/music/seventytimes.mp3', synthIdx:3 },
   // s6 — beginning with strengths
   { title:'anthems for a seventeen year old girl', artist:'broken social scene', year:'2003',
     url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc19df8eec22adffa3158_07%20Anthems%20For%20A%20Seventeen%20Year-Old%20Girl.mp3', synthIdx:4 },
