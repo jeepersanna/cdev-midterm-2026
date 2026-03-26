@@ -124,8 +124,8 @@ const SECTION_TRACKS = [
   { title:'keep on rockin\' in the free world', artist:'neil young', year:'1989',
     url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc19a5a98135bf957ad91_01%20My%20My%2C%20Hey%20Hey%20(Out%20of%20the%20Blue)%201.mp3', synthIdx:0 },
   // s3 — a world with no windows
-  { title:'creep', artist:'radiohead', year:'1993',
-    url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc19c9f2c5819540bd11d_02%20Creep.mp3', synthIdx:1 },
+  { title:'jesus freak', artist:'dc talk', year:'1995',
+    url:'music/jesusfreak.mp3', synthIdx:1 },
   // s4 — what i longed for
   { title:'zombie', artist:'the cranberries', year:'1994',
     url:'https://cdn.prod.website-files.com/6547f58b4c75805e8c5e88ee/69bcc1a272c49003a3792a26_03%20Zombie%201.mp3', synthIdx:2 },

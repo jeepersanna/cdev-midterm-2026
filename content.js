@@ -50,7 +50,7 @@ const CONTENT = {
   's3-cite':  '— from my reflection',
   's3-cap1':  'pajamas and headphones — already her own world',
 
-  // ── SONG BREAK 3: CREEP ──────────────────────────────────
+  // ── SONG BREAK 3: JESUS FREAK ──────────────────────────────────
   'br3-why': 'This is the song I didn\'t know I was living. Sitting alone with a philosophy textbook I couldn\'t parse, with no one to ask, no peers to struggle alongside — that\'s what "I don\'t belong here" sounds like from the inside. Dewey said learning is social. Thom Yorke said the same thing a different way, from the floor.<br><br><div style="text-align:center"><em>"But I\'m a creep, I\'m a weirdo<br>What the hell am I doin\' here?<br>I don\'t belong here"<br><b>"Creep" — Radiohead</b></em></div>',
 
   // ── SECTION 4: UNSCHOOLING & TOTAL FREEDOM ──────────────
