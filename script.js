@@ -337,9 +337,8 @@ function startViz(){
     // Build path once, stroke three times (glow wide → glow narrow → sharp line)
     ctx.beginPath();
     for(let x=0;x<history.length;x++){const a=history[x]*mid*0.82;x===0?ctx.moveTo(x,mid-a):ctx.lineTo(x,mid-a);}
-    ctx.lineWidth=9;ctx.strokeStyle='#e8008a28';ctx.shadowColor='#e8008a';ctx.shadowBlur=14;ctx.stroke();
-    ctx.strokeStyle='#4060e822';ctx.shadowColor='#4060e8';ctx.shadowBlur=10;ctx.stroke();
-    ctx.lineWidth=1.5;ctx.strokeStyle=vcol+'e0';ctx.shadowColor=vcol;ctx.shadowBlur=6;ctx.stroke();
+    ctx.lineWidth=8;ctx.strokeStyle=vcol+'28';ctx.shadowColor=vcol;ctx.shadowBlur=12;ctx.stroke();
+    ctx.lineWidth=1.5;ctx.strokeStyle=vcol+'e0';ctx.shadowBlur=4;ctx.stroke();
     ctx.shadowBlur=0;vphase+=0.012;
   }
   draw();
