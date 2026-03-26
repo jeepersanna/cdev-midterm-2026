@@ -22,7 +22,7 @@ const CONTENT = {
   's1-cap3':  'dad &amp; me',
 
   // ── SONG BREAK 1: I CAN'T GET OVER IT ───────────────────
-  'br1-why': 'This song was written the year I was born, and it has grown up alongside me — danced to in my family\'s living room, played live, blasted in teenage fury, used to loosen the grip of my religion. Now it\'s doing one more thing.<br><br>Piaget tells us that children construct knowledge through exploration. Vygotsky tells us they grow through relationships. I can name what I was denied. I can cite the theories. I can extend grace to my parents\' intentions. And still:<br><br>I forgive you. I can\'t get over it.<br>They say that time heals every wound. I can\'t get over it.<br>I can face it. But can\'t erase it yet.<br><b>"I Can\'t Get Over It" — The 77\'s</b>',
+  'br1-why': 'This song was written the year I was born, and it has grown up alongside me — danced to in my family\'s living room, played live, blasted in teenage fury, used to loosen the grip of my religion. Now it\'s doing one more thing.<br><br>Piaget tells us that children construct knowledge through exploration. Vygotsky tells us they grow through relationships. I can name what I was denied. I can cite the theories. I can extend grace to my parents\' intentions. And still:<br><br><div style="text-align:center">I forgive you. I can\'t get over it.<br>They say that time heals every wound. I can\'t get over it.<br>I can face it. But can\'t erase it yet.<br><b>"I Can\'t Get Over It" — The 77\'s</b></div>',
 
   // ── SECTION 2: LONELINESS OF LEARNING ALONE ─────────────
   's2-label': '02 — THE LONELINESS OF LEARNING ALONE',
@@ -37,7 +37,7 @@ const CONTENT = {
   's2-cap2': 'little me',
 
   // ── SONG BREAK 2: KEEP ON ROCKIN' IN THE FREE WORLD ─────
-  'br2-why': 'Neil Young targets the hollow rhetoric of American liberty — the "free world" that abandons people in its own streets and terrorizes people beyond its borders. Many of my parents\' educational choices were made in the name of freedom: freedom of religion, freedom from government. But freedom without the tools and resources to navigate it isn\'t liberty — it\'s just another kind of captivity. The song\'s fury is at a system that calls itself free while keeping its own people in chains. This section is about the grief of realizing I\'d been deceived — not just by the rhetoric, but by the very theories and structures that shaped my education.<br><br><em>"We got a thousand points of light<br>For the homeless man<br>We got a kinder, gentler machine gun hand"<br><b>"Rockin\' In the Free World" — Neil Young</b></em>',
+  'br2-why': 'Neil Young targets the hollow rhetoric of American liberty — the "free world" that abandons people in its own streets and terrorizes people beyond its borders. Many of my parents\' educational choices were made in the name of freedom: freedom of religion, freedom from government. But freedom without the tools and resources to navigate it isn\'t liberty — it\'s just another kind of captivity. The song\'s fury is at a system that calls itself free while keeping its own people in chains. This section is about the grief of realizing I\'d been deceived — not just by the rhetoric, but by the very theories and structures that shaped my education.<br><br><div style="text-align:center"><em>"We got a thousand points of light<br>For the homeless man<br>We got a kinder, gentler machine gun hand"<br><b>"Rockin\' In the Free World" — Neil Young</b></em></div>',
 
   // ── SECTION 3: A BIBLICAL WORLDVIEW ─────────────────────
   's3-label': '03 — A BIBLICAL WORLDVIEW',
@@ -51,7 +51,7 @@ const CONTENT = {
   's3-cap1':  'pajamas and headphones — already her own world',
 
   // ── SONG BREAK 3: CREEP ──────────────────────────────────
-  'br3-why': 'This is the song I didn\'t know I was living. Sitting alone with a philosophy textbook I couldn\'t parse, with no one to ask, no peers to struggle alongside — that\'s what "I don\'t belong here" sounds like from the inside. Dewey said learning is social. Thom Yorke said the same thing a different way, from the floor.',
+  'br3-why': 'This is the song I didn\'t know I was living. Sitting alone with a philosophy textbook I couldn\'t parse, with no one to ask, no peers to struggle alongside — that\'s what "I don\'t belong here" sounds like from the inside. Dewey said learning is social. Thom Yorke said the same thing a different way, from the floor.<br><br><div style="text-align:center"><em>"But I\'m a creep, I\'m a weirdo<br>What the hell am I doin\' here?<br>I don\'t belong here"<br><b>"Creep" — Radiohead</b></em></div>',
 
   // ── SECTION 4: UNSCHOOLING & TOTAL FREEDOM ──────────────
   's4-label': '04 — UNSCHOOLING AND THE WEIGHT OF TOTAL FREEDOM',
@@ -64,7 +64,7 @@ const CONTENT = {
   's4-p4': 'As I neared 12th grade graduation, that confusion came to a head. I was paralyzed. I had been told my whole life that my purpose was to be a faithful Christian — to serve God, to serve my future husband, perhaps to go into mission work. Careers were barely discussed. College was an afterthought. And when the world suddenly seemed to require that I have a direction, I had almost no framework for imagining one. The anxiety I felt was not laziness or lack of ambition. It was the logical consequence of an education that had never asked me to imagine a future for myself beyond the walls of my faith.',
 
   // ── SONG BREAK 4: ZOMBIE ─────────────────────────────────
-  'br4-why': 'The song asks how violence and ideology persist long after the moment that created them. The answer is: they live in your head. That\'s what a closed intellectual system does — it doesn\'t need to enforce itself, because eventually you do it for yourself. I\'m not angry at my parents. But I can name the structure now. That\'s what this chapter tries to do.',
+  'br4-why': 'The song asks how violence and ideology persist long after the moment that created them. The answer is: they live in your head. That\'s what a closed intellectual system does — it doesn\'t need to enforce itself, because eventually you do it for yourself. I\'m not angry at my parents. But I can name the structure now. That\'s what this chapter tries to do.<br><br><div style="text-align:center"><em>"What\'s in your head, in your head?<br>Zombie, zombie, zombie"<br><b>"Zombie" — The Cranberries</b></em></div>',
 
   // ── SECTION 5: WHAT WAS MISSING ─────────────────────────
   's5-label': '05 — WHAT WAS MISSING',
@@ -77,7 +77,7 @@ const CONTENT = {
   's5-cap1': 'sitting alone in a crowd',
 
   // ── SONG BREAK 5: YOU WON'T KNOW ────────────────────────
-  'br5-why': 'The whole record this comes from is called The Devil and God Are Raging Inside Me — which is as accurate a description of unguided theological education as I\'ve ever heard. The song itself is the experience of needing someone to hold the thread and screaming into the space where they should have been. Zaretta Hammond calls it relationship. I called it absence. We\'re talking about the same void.',
+  'br5-why': 'The whole record this comes from is called The Devil and God Are Raging Inside Me — which is as accurate a description of unguided theological education as I\'ve ever heard. The song itself is the experience of needing someone to hold the thread and screaming into the space where they should have been. Zaretta Hammond calls it relationship. I called it absence. We\'re talking about the same void.<br><br><div style="text-align:center"><em>"I will not lie, I thought I had it figured out"<br><b>"You Won\'t Know" — Brand New</b></em></div>',
 
   // ── SECTION 6: AND WHAT REMAINS ─────────────────────────
   's6-label': '06 — AND WHAT REMAINS',
@@ -93,7 +93,7 @@ const CONTENT = {
   's6-cap4': 'anna &amp; rae at the marin headlands',
 
   // ── SONG BREAK 6: ANTHEMS FOR A SEVENTEEN YEAR OLD GIRL ─
-  'br6-why': 'The song repeats her identity like a label until it feels like a cage. That\'s what deficit thinking does — it reduces a student to what she lacks, what she represents, what category she fits. Ethnic Studies and Culturally Responsive Teaching exist to break that loop. I heard this song and thought: yes, that. That\'s what it feels like before someone finally sees you whole.',
+  'br6-why': 'The song repeats her identity like a label until it feels like a cage. That\'s what deficit thinking does — it reduces a student to what she lacks, what she represents, what category she fits. Ethnic Studies and Culturally Responsive Teaching exist to break that loop. I heard this song and thought: yes, that. That\'s what it feels like before someone finally sees you whole.<br><br><div style="text-align:center"><em>"Park that car, drop that phone<br>Sleep on the floor, dream about me"<br><b>"Anthems for a Seventeen Year Old Girl" — Broken Social Scene</b></em></div>',
 
   // ── SECTION 7: FIN ──────────────────────────────────────
   's7-big-close':     'EDUCATION MUST CENTER POSSIBILITY, COMMUNITY, AND COLLECTIVE RESPONSIBILITY.',
@@ -102,7 +102,7 @@ const CONTENT = {
   's7-byline':    'ANNA DANIELSON · CDEV 150 · PROF. REBEKAH AUSTIN · MARCH 2, 2026',
 
   // ── SONG BREAK 7: CAME OUT SWINGING ─────────────────────
-  'br7-why': 'I didn\'t choose this song because everything turned out fine. I chose it because it\'s about deciding not to be defined by where you came from — and meaning it. An asset-based perspective isn\'t optimism for its own sake. It\'s a refusal. Every child who walked into a classroom carrying more than the curriculum could see deserved a teacher who knew how to look. I want to be that teacher. That\'s what came out swinging means to me.',
+  'br7-why': 'I didn\'t choose this song because everything turned out fine. I chose it because it\'s about deciding not to be defined by where you came from — and meaning it. An asset-based perspective isn\'t optimism for its own sake. It\'s a refusal. Every child who walked into a classroom carrying more than the curriculum could see deserved a teacher who knew how to look. I want to be that teacher. That\'s what came out swinging means to me.<br><br><div style="text-align:center"><em>"I\'m not sad anymore<br>I\'m just tired of this place"<br><b>"Came Out Swinging" — The Wonder Years</b></em></div>',
 
 };
 
