@@ -19,7 +19,7 @@ const CONTENT = {
   's1-p6': 'Vygotsky\'s framework is useful for naming what I was missing, but it has a gap that my experience makes visible: it assumes the more knowledgeable other is a neutral party — someone whose job is simply to open the learner up, not to shape the direction of that opening. My mother was not neutral. The scaffolding she offered was built from the same theological and political convictions that structured every other part of my life. And beyond ideology, there was the problem of love. She wasn\'t just my teacher. She was my mother, and the emotional weight of that relationship made disagreement feel less like intellectual inquiry and more like disloyalty.',
   's1-quote': 'Learning is most powerful when a more knowledgeable other scaffolds a student just beyond their current capacity — not delivering knowledge as a finished product, but building it together.',
   's1-cite':  '— Vygotsky, 1978; Piaget, 1952',
-  's1-cap2':  'before the curriculum, there was this family',
+  's1-cap2':  'my beloved —big haired— family',
   's1-cap3':  'dad &amp; me',
 
   // ── SONG BREAK 1: I CAN'T GET OVER IT ───────────────────
@@ -75,7 +75,7 @@ const CONTENT = {
   's5-quote': 'Educational equity is a matter of asking who gets to shape what is taught, in whose image learning is designed, and which students are permitted to see themselves as full participants in the construction of knowledge.',
   's5-cite':  '— Gee, 1989; Dewey, 1916',
   's5-p3': 'The loneliness I felt as a student has become something I carry into every classroom I enter. I know what it feels like to be on the outside of a conversation everyone else seems fluent in. To carry an education that prepared you for one world and dropped you into another. To feel like the rules of learning were written for someone else. That knowledge doesn\'t make me a better teacher by itself — but it makes me a more clear-eyed one. The kind who knows that good intentions inside a broken framework are still a broken framework. The kind who will look for what the framework is doing to the child, not just what the teacher is trying to do for them.',
-  's5-cap1': 'sitting alone in a crowd',
+  's5-cap1': 'me and rose',
 
   // ── SONG BREAK 5: SEVENTY TIMES 7 ────────────────────────
   'br5-why': 'I chose this song because it gave sound to an anger I couldn\'t name. The song is about the betrayal of a best friend — specific, personal, pointed. Mine wasn\'t. I just knew something had failed me, something I had trusted completely, something I hadn\'t chosen. The target was blurry. The pain wasn\'t.<br><br><div style="text-align:center"><em>Back in school they never taught us what we needed to know<br>Like how to deal with despair, or someone breaking your heart<br>For twelve years I\'ve held it all together<br>But a night like this is begging to pull me apart<br><b>"Seventy Times 7" — Brand New</b></em></div>',
@@ -89,10 +89,10 @@ const CONTENT = {
   's6-p2': 'Turk\'s (2023) framing is useful perspective for me: that we need to see students — and have them see themselves — as capable learners. I spent years not seeing myself that way. Not because I lacked ability, but because no one had ever framed my learning as something I was building. It was something being done to me, or for me, or through me — but rarely with me.',
   's6-p3': 'What I want to build is something genuinely different from what I was given — a classroom where a student\'s questions or confusions are the starting point, not problems to be managed. Where learning is done with students, not to them or for them. I spent long enough on the outside of that to know exactly what it costs. What I want to make is a space where not-knowing feels safe, where students see themselves as active participants in their learning — and feel ownership in the classroom and over their education.',
   's6-p4': 'But none of this stays in the classroom. A pedagogy built on student agency, culturally responsive teaching, on questions as a starting point, on learning built with students rather than handed down to them — that is not a neutral choice. It is a challenge to structures that have long preferred compliance over curiosity. To teach this way is already a political act, and it asks something beyond good practice: it asks us to advocate. For students the system has failed. For the conditions that make this kind of teaching possible. For policies that would make it the rule rather than the exception. And that means all of us — teachers, researchers, policymakers — being willing to name what isn\'t working and push for something better.',
-  's6-cap':  'running free — what every child deserves',
+  's6-cap':  'graduation for University of Cincinnati',
   's6-cap2': 'anna &amp; kevin at an outdoor concert',
   's6-cap3': 'anna &amp; rae at twin peaks',
-  's6-cap4': 'anna &amp; rae at the marin headlands',
+  's6-cap4': 'anna &amp; rae at the glen park',
 
   // ── SONG BREAK 6: ANTHEMS FOR A SEVENTEEN YEAR OLD GIRL ─
   'br6-why': 'My best friend and I played this song when we left home at eighteen. We knew what we were — the ones who asked too many questions, wanted too much, didn\'t fit the mold. In our community, that made us the rotten ones. We spoiled the bunch.<br><br>It took years to understand that the not-fitting was never the problem. The mold was.<br><br><div style="text-align:center"><em>Used to be one of the rotten ones and I liked you for that.<br><b>"Anthems For a Seventeen Year-Old Girl" — Broken Social Scene</b></em></div>',
