@@ -6,7 +6,7 @@ const CONTENT = {
 
   // ── HERO ────────────────────────────────────────────────
   'hero-eyebrow': 'CDEV 150 · MIDTERM REFLECTION · ANNA DANIELSON · MARCH 2026',
-  'hero-intro': 'This project is framed as a mixtape. Music was the most reliable constant of my upbringing — sometimes the only thing that felt entirely mine. Each section opens with a song, because it is difficult to put in words the depth of emotional turmoil. The first songs are ones my father loved. They drifted from the record player through all of my childhood, including the hours I spent at the kitchen table doing schoolwork. As the playlist moves forward, so does the internal dialogue I carried through adolescence — the slow accumulation of questions I didn't yet have language for. I've included photographs of myself at different stages of my education as a reminder that underneath the theory and the retrospect is simply a kid trying to find her way.',
+  'hero-intro': 'This project is framed as a mixtape. Music was the most reliable constant of my upbringing — sometimes the only thing that felt entirely mine. Each section opens with a song, because it is difficult to put in words the depth of emotional turmoil. The first songs are ones my father loved. They drifted from the record player through all of my childhood, including the hours I spent at the kitchen table doing schoolwork. As the playlist moves forward, so does the internal dialogue I carried through adolescence — the slow accumulation of questions I didn\'t yet have language for. I\'ve included photographs of myself at different stages of my education as a reminder that underneath the theory and the retrospect is simply a kid trying to find her way.',
 
   // ── SECTION 1: STRUCTURE BEFORE SELF ────────────────────
   's1-label': '01 — STRUCTURE BEFORE SELF',
@@ -104,7 +104,7 @@ const CONTENT = {
   's7-byline':    'ANNA DANIELSON · CDEV 150 · PROF. REBEKAH AUSTIN · MARCH 2, 2026',
 
   // ── SONG BREAK 7: CAME OUT SWINGING ─────────────────────
-  'br7-why': 'This is the end of the mixtape. Which means it\'s also the end of the analysis — the part where I stop pulling the framework apart and say what I actually think.<br><br>I didn\'t get the education I deserved. I\'m still working out what that cost me. But I also made it here — to this page, to these questions, to a version of myself that knows the difference between being taught and actually learning. That didn\'t happen in spite of everything. It happened through it.<br><br><div style="text-align:center"><em>I came out swinging from a South Philly basement,<br>Caked in stale beer and sweat, under half-lit fluorescents<br>And I spent the winter writing songs about getting better<br>And if I\'m being honest, I\'m getting there<br><b>"Came Out Swinging" — The Wonder Years</b></em></div>',
+  'br7-why': 'I didn\'t get the education I deserved. I\'m still working out what that cost me. But I also made it here — to this page, to these questions, to a version of myself that knows the difference between being taught and actually learning. That didn\'t happen in spite of everything. It happened through it.<br><br>I came out swinging.<br><br><div style="text-align:center"><em>I came out swinging from a South Philly basement,<br>Caked in stale beer and sweat, under half-lit fluorescents<br>And I spent the winter writing songs about getting better<br>And if I\'m being honest, I\'m getting there<br><b>"Came Out Swinging" — The Wonder Years</b></em></div>',
 
 };
 
